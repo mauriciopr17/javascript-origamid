@@ -25,3 +25,15 @@ const Carro = {
     return true;
   },
 };
+
+//nodelist para array
+const lista = document.querySelectorAll("li");
+Array.from(lista);
+
+//recuperando as propriedades do objeto
+Object.getOwnPropertyNames(Pessoa.prototype);
+// (2) ["constructor", "andar"]
+// 0: "constructor"
+// 1: "andar"
+// length: 2
+// __proto__: Array(0)
