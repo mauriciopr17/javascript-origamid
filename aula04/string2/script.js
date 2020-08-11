@@ -51,3 +51,12 @@ console.log(fruta.indexOf("a"));
 
 //retorna o index do caractere que indiquei, começando do final
 console.log(fruta.lastIndexOf("na"));
+
+//repete string
+console.log(listaFrutas.repeat(5));
+
+//split, sperando o conteúdo da string colocando
+//como item de array
+//remove o que está dentro do split
+console.log(listaFrutas);
+console.log(listaFrutas.split(" "));
